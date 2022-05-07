@@ -3,12 +3,12 @@ import requests
 class Student(object):
 	"""Student Object containing functions to retrieve various student details"""
 
-	LOGIN_URL = "http://136.233.14.3:8282/CampusPortalSOA/login"
-	STUDENTINFO_URL = "http://136.233.14.3:8282/CampusPortalSOA/studentinfo"
-	STUDENTPHOTO_URL = "http://136.233.14.3:8282/CampusPortalSOA/image/studentPhoto"
-	STUDENTRESULT_URL = "http://136.233.14.3:8282/CampusPortalSOA/stdrst"
-	RESULTDETAIL_URL = "http://136.233.14.3:8282/CampusPortalSOA/rstdtl" # styno = int(1-8) semester number
-	ATTENDANCE_URL = "http://136.233.14.3:8282/CampusPortalSOA/attendanceinfo"
+	LOGIN_URL = "http://103.112.27.37:8282/CampusPortalSOA/login"
+	STUDENTINFO_URL = "http://103.112.27.37:8282/CampusPortalSOA/studentinfo"
+	STUDENTPHOTO_URL = "http://103.112.27.37:8282/CampusPortalSOA/image/studentPhoto"
+	STUDENTRESULT_URL = "http://103.112.27.37:8282/CampusPortalSOA/stdrst"
+	RESULTDETAIL_URL = "http://103.112.27.37:8282/CampusPortalSOA/rstdtl" # styno = int(1-8) semester number
+	ATTENDANCE_URL = "http://103.112.27.37:8282/CampusPortalSOA/attendanceinfo"
 
 	HEADERS = {"Content-Type" : "application/json"}
 
